@@ -1,5 +1,11 @@
 ### Pixidos coding standards
 
+### Install
+
+```bash
+composer require pixidos/coding-standards
+```
+
 ##### phpstan
 make include in you phpstan.neon
 ````

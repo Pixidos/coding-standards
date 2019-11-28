@@ -1,4 +1,4 @@
-imcludes:
+includes:
     - vendor/phpstan/phpstan-phpunit/extension.neon
     - vendor/phpstan/phpstan-phpunit/rules.neon
 
@@ -38,7 +38,7 @@ rules:
     - PHPStan\Rules\SwitchConditions\MatchingTypeInSwitchCaseConditionRule
 
 services:
-	-
-		class: PHPStan\Rules\BooleansInConditions\BooleanRuleHelper
-	-
-		class: PHPStan\Rules\Operators\OperatorRuleHelper
+    -
+        class: PHPStan\Rules\BooleansInConditions\BooleanRuleHelper
+    -
+        class: PHPStan\Rules\Operators\OperatorRuleHelper

@@ -1,6 +1,6 @@
 includes:
-    - vendor/phpstan/phpstan-phpunit/extension.neon
-    - vendor/phpstan/phpstan-phpunit/rules.neon
+    - ../../phpstan/phpstan-phpunit/extension.neon
+    - ../../phpstan/phpstan-phpunit/rules.neon
 
 parameters:
     polluteScopeWithLoopInitialAssignments: false

@@ -1,5 +1,7 @@
 ### Pixidos coding standards
 
+Coding standarts and check for pixidos libs
+
 ### Install
 
 ```bash

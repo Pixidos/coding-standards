@@ -5,6 +5,9 @@ parameters:
 	checkAlwaysTrueStrictComparison: true
 	checkFunctionNameCase: true
 
+	level: max
+	inferPrivatePropertyTypeFromConstructor: true
+
 rules:
 	- PHPStan\Rules\BooleansInConditions\BooleanInBooleanAndRule
 	- PHPStan\Rules\BooleansInConditions\BooleanInBooleanNotRule

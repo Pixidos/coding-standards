@@ -1,0 +1,21 @@
+#!/bin/bash
+
+SOURCE="${BASH_SOURCE[0]}"
+PROJECT_DIR=$(PWD)
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  TARGET="$(readlink "$SOURCE")"
+  if [[ $TARGET == /* ]]; then
+    SOURCE="$TARGET"
+  else
+    DIR="$( dirname "$SOURCE" )"
+    SOURCE="$DIR/$TARGET" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+  fi
+done
+DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+
+TEMPLATE=$( cd -P "$DIR/../templates" >/dev/null 2>&1 && pwd )
+echo "INSTALL FILES"
+
+rsync -v --update "$TEMPLATE"/{*,.editorconfig} "$PROJECT_DIR"

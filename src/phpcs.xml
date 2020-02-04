@@ -19,11 +19,6 @@
         <severity>0</severity>
     </rule>
     <arg name="tab-width" value="4"/>
-    <rule ref="Generic.Files.LineEndings">
-        <properties>
-            <property name="eolChar" value="\n"/>
-        </properties>
-    </rule>
     <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
     <rule ref="Generic.PHP.LowerCaseKeyword"/>
     <rule ref="Generic.PHP.LowerCaseConstant"/>
@@ -109,10 +104,9 @@
 
     <!-- PSR12 -->
     <rule ref="PSR12"/>
-
-
     <rule ref="Generic.Files.LineLength">
         <properties>
+            <property name="eolChar" value="\n"/>
             <property name="lineLimit" value="120"/>
             <property name="absoluteLineLimit" value="220"/>
         </properties>

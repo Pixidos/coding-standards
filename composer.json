@@ -9,6 +9,10 @@
         "phpstan/phpstan-deprecation-rules": "^0.12.2",
         "slevomat/coding-standard": "^6.0",
         "squizlabs/php_codesniffer": "^3.4"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
     },
     "bin": [
         "bin/csinstall"

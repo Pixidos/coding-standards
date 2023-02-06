@@ -3,13 +3,13 @@
     "description": "Pixidos coding standards",
     "license": "MIT",
     "require": {
-        "phpstan/phpstan": "^0.12.17",
-        "phpstan/phpstan-strict-rules": "^0.12",
-        "ergebnis/phpstan-rules": "^0.15.0",
-        "phpstan/phpstan-deprecation-rules": "^0.12.2",
-        "slevomat/coding-standard": "^6.0",
-        "squizlabs/php_codesniffer": "^3.4",
-        "spaze/phpstan-disallowed-calls": "^1.1"
+        "phpstan/phpstan": "^1.9.14",
+        "phpstan/phpstan-strict-rules": "^1.4.5",
+        "ergebnis/phpstan-rules": "^1.0.0",
+        "phpstan/phpstan-deprecation-rules": "^1.1.1",
+        "slevomat/coding-standard": "^8.7.1",
+        "squizlabs/php_codesniffer": "^3.5.4",
+        "spaze/phpstan-disallowed-calls": "^v2.11.5"
     }
     ,
     "require-dev": {

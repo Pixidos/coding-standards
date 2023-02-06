@@ -112,13 +112,7 @@
 
     <rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/AssignmentInConditionSniff.php"/>
     <rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/RequireYodaComparisonSniff.php"/>
-    <rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/JumpStatementsSpacingSniff.php">
-        <properties>
-            <property name="tokensToCheck" type="array">
-                <element value="T_RETURN"/>
-            </property>
-        </properties>
-    </rule>
+    <rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/JumpStatementsSpacingSniff.php" />
     <rule ref="Generic.Files.LineLength">
         <properties>
             <property name="lineLimit" value="160"/>

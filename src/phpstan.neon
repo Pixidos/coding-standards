@@ -14,15 +14,3 @@ parameters:
 
 	level: max
 	inferPrivatePropertyTypeFromConstructor: true
-
-rules:
-    - PHPStan\Rules\DisallowedConstructs\DisallowedEmptyRule
-    - PHPStan\Rules\DisallowedConstructs\DisallowedImplicitArrayCreationRule
-    - PHPStan\Rules\Functions\MissingFunctionParameterTypehintRule
-    - PHPStan\Rules\Functions\MissingFunctionReturnTypehintRule
-    - PHPStan\Rules\Methods\MissingMethodParameterTypehintRule
-    - PHPStan\Rules\Methods\MissingMethodReturnTypehintRule
-    - Ergebnis\PHPStan\Rules\Expressions\NoCompactRule
-    - Ergebnis\PHPStan\Rules\Expressions\NoEmptyRule
-    - Ergebnis\PHPStan\Rules\Files\DeclareStrictTypesRule
-    - Ergebnis\PHPStan\Rules\Expressions\NoErrorSuppressionRule

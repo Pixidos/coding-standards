@@ -8,9 +8,6 @@ includes:
 parameters:
     level: max
     polluteScopeWithLoopInitialAssignments: false
-    checkAlwaysTrueCheckTypeFunctionCall: true
-    checkAlwaysTrueInstanceof: true
-    checkAlwaysTrueStrictComparison: true
     checkFunctionNameCase: true
 
     inferPrivatePropertyTypeFromConstructor: true

@@ -3,8 +3,6 @@ includes:
     # - vendor/phpstan/phpstan-phpunit/extension.neon
 
 parameters:
-    autoload_files:
-        - vendor/autoload.php
     paths:
         - src
         - tests

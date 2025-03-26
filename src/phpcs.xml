@@ -111,7 +111,6 @@
     <!-- Slevomat rules -->
 
     <rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/AssignmentInConditionSniff.php"/>
-    <rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/RequireYodaComparisonSniff.php"/>
     <rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/ControlStructures/JumpStatementsSpacingSniff.php" />
     <rule ref="Generic.Files.LineLength">
         <properties>

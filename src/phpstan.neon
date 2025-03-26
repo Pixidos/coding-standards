@@ -1,16 +1,16 @@
 includes:
-	- ../../../phpstan/phpstan-strict-rules/rules.neon
-	- ../../../phpstan/phpstan-deprecation-rules/rules.neon
-	- ../../../spaze/phpstan-disallowed-calls/extension.neon
-	- ../../../spaze/phpstan-disallowed-calls/disallowed-dangerous-calls.neon
-	- ../../../spaze/phpstan-disallowed-calls/disallowed-execution-calls.neon
+    - ../../../phpstan/phpstan-strict-rules/rules.neon
+    - ../../../phpstan/phpstan-deprecation-rules/rules.neon
+    - ../../../spaze/phpstan-disallowed-calls/extension.neon
+    - ../../../spaze/phpstan-disallowed-calls/disallowed-dangerous-calls.neon
+    - ../../../spaze/phpstan-disallowed-calls/disallowed-execution-calls.neon
 
 parameters:
-	polluteScopeWithLoopInitialAssignments: false
-	checkAlwaysTrueCheckTypeFunctionCall: true
-	checkAlwaysTrueInstanceof: true
-	checkAlwaysTrueStrictComparison: true
-	checkFunctionNameCase: true
+    level: max
+    polluteScopeWithLoopInitialAssignments: false
+    checkAlwaysTrueCheckTypeFunctionCall: true
+    checkAlwaysTrueInstanceof: true
+    checkAlwaysTrueStrictComparison: true
+    checkFunctionNameCase: true
 
-	level: max
-	inferPrivatePropertyTypeFromConstructor: true
+    inferPrivatePropertyTypeFromConstructor: true
